@@ -1,5 +1,5 @@
-selector {font-family: "Times New Roman", Times, serif;}
-group selectors h1, h2 {color: Lavenderblush}
-evenrow {color: lavender}
+body {font-family: "Times New Roman", Times, serif;}
+h1, h2 {color: Lavenderblush}
+.evenrow  {color: lavender}
 h1 {font-size: 2 em}
 h2 {font-size: 1.5 em}
