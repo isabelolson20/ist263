@@ -6,11 +6,10 @@
         <title>Contact</title>
         <link rel="stylesheet" href="styles.css">
     <style>
-    .parentcontainer {float: left;}
-    .header {float: left;}
-    .details {float: right;}
-    .parentcontainer2 { padding: 20px}
-            .section {display: flex; order: 1; background-color: white; border-radius: 1em;}
+    .parentcontainer {float: left; background-color: white}
+
+    .parentcontainer2 {padding: 20px; background-color: white}
+            .section {display: flex; order: 1; border-radius: 1em;}
             .aside {order: 2;}
     </style>
     </head>
@@ -23,15 +22,16 @@
             <a href=contact.html>contact</a>
         </nav>
 <div class="parentcontainer">
-     <header> 
+    <div>
+        405 University Place <br> Syracuse NY 13244
+    </div>
+     <div> 
             <a href=mailto:ipolson@syr.edu>Isabel Olson Email</a>
-     </header>
-
-     <details>
             <a href=www.linkedin.com/in/isabelolson20>My LinkedIn Profile</a>
             <img src="../images/logosized.png" alt= "LinkedIn Logo">
-     </details>
+     </div>
 </div>
+
 
 <div class="parentcontainer2">
      <aside>  
@@ -57,7 +57,7 @@
                 <textarea name="message" rows="10" cols="30"></textarea>
                 <button type="button" onclick="alert">Submit</button>
             </form>
-     </section>
+    </section>
 </div>
 </body>
 </html>
