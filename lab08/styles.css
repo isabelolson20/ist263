@@ -1,7 +1,7 @@
-body {background-color: white; color: #E94E77}
+body {background-color: #e7d7f5; color: #f03164}
 link {color: #dbc3ee}
-h1 {color: #FF9E9D}
-nav {background-color: #dbc3ee; color: #FF3D7F; 
+h1 {color: #f03164}
+nav {background-color: white; color: #f03164; 
     padding: 10px; margin-bottom: 30px}
 nav a {color: #c3eedd}
 nav a:hover {background-color: white}
