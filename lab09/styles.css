@@ -1,7 +1,15 @@
-body {background-color: #F4EAD5; color: #E94E77}
-link {color: #C6E5D9}
-h1 {color: #FF9E9D}
-nav {background-color: #7FC7AF; color: #FF3D7F; 
-    padding: 10px; margin-bottom: 30px}
-nav a {color: #3FB8AF}
-nav a:hover {background-color: #FF9E9D}
+body {background-color: #e7d7f5; color: #f03164}
+link {color: #dbc3ee}
+h1 {color: #f03164}
+nav {background-color: white; color: #f03164; 
+    padding: 10px; margin-bottom: 30px;}
+nav a {color: #c3eedd}
+nav a:hover {background-color: white}
+@media only screen and (max-width: 600px)
+{
+    nav link {display: block; width: 100%;}
+}
+@media only screen and (min-width: 600px)
+{
+   
+}
