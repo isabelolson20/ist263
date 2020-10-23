@@ -7,7 +7,7 @@ nav a {color: #c3eedd}
 nav a:hover {background-color: white}
 @media only screen and (max-width: 600px)
 {
-    nav link {display: block; width: 100%;}
+    nav a {display: block; width: 100%;}
 }
 @media only screen and (min-width: 600px)
 {
