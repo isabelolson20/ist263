@@ -1,9 +1,9 @@
-body {background-color: white; color: #f03164}
-link {color: #dbc3ee}
-h1 {color: #f03164}
-nav {background-color: white; color: #f03164; 
+body {background-color: #d6ecec; color: #ff0246}
+link {color: #0f9efd}
+h1 {color: #ff0246}
+nav {background-color: white; color: #ff0246; 
     padding: 10px; margin-bottom: 30px;}
-nav a {color: #c3eedd}
+nav a {color: #0f9efd}
 nav a:hover {background-color: white}
 @media only screen and (max-width: 600px)
 {
