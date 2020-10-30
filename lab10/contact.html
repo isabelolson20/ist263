@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Contact</title>
+        <link rel="stylesheet" href="styles.css">
+        <style>
+            .clear {clear: both;}
+            .parentcontainer {background-color: white; border-radius: 1em; margin-bottom: 10px;}
+               .address {float: left; padding: 20px; margin: 10px}
+             .links {float: left; padding: 20px; margin: 10px}
+           .parentcontainer2 {flex-wrap: wrap; display: flex; background-color: white; border-radius: 1em; margin-top: 10px;}
+             .map {float: right; order: 2; padding: 20px; margin: 10px;}
+              .mailform {float: left; order: 1; padding: 20px; margin: 10px;}
+         </style>
+    </head>
+
+    <body>
+        <h1>Contact</h1>
+        <nav>
+            <a href=index.html>Home</a>
+            <a href=skills.html>Skills</a>
+            <a href=contact.html>contact</a>
+        </nav>
+<div class="parentcontainer">
+     <div class="address">
+        405 University Place <br> Syracuse NY 13244
+     </div>
+     <div class="links"> 
+            <a href=mailto:ipolson@syr.edu>Isabel Olson Email</a>
+            <a href=www.linkedin.com/in/isabelolson20>My LinkedIn Profile</a>
+            <img src="../images/logosized.png" alt= "LinkedIn Logo">
+     </div>
+     <div class="clear"></div>
+</div>
+<div class="clear"></div>
+<div class="parentcontainer2"> 
+            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2916.085962544173!2d-76.13304034910847!3d43.039622799804526!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d9f3754c82b97b%3A0xa1a5eec56ddb8a56!2sWatson%20hall%2C%20405%20University%20Pl%2C%20Syracuse%2C%20NY%2013210!5e0!3m2!1sen!2sus!4v1599687672934!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" aria-hidden="false" tabindex="0"></iframe>
+     <div class="mailform">
+             <form action="mailto:ipolson@syr.edu" method="POST">
+                 <fieldset>
+                     <legend>Personalia:</legend>
+                        <label for="fname">First name:</label>
+                        <input type="text" id="fname" name="fname"> <br>
+                        <label for="lname">Last name:</label><br>
+                        <input type="text" id="lname" name="lname"> <br>
+                        <input type="submit" value="Submit">
+                </fieldset>
+                <label for="major">Choose your major:</label>
+                 <select id="majors" name="majors">
+                    <option value="arts and sciences">Arts and Sciences</option>
+                     <option value="business">Business</option>
+                    <option value="communications">Communications</option>
+                    <option value="other">Other</option>
+                </select>
+                <textarea name="message" rows="10" cols="30"></textarea>
+                <button type="button" onclick="alert">Submit</button>
+            </form>
+        </div>
+</div>
+</body>
+</html>
